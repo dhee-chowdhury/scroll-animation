@@ -23,6 +23,7 @@ const Hero = () => {
       className="w-full relative bg-black"
     >
       <CenterImage />
+      <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-b from-zinc-50/0 to-zinc-50"/>
     </div>
   );
 };
